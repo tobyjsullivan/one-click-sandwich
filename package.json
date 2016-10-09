@@ -2,7 +2,7 @@
   "name": "one-click-sandwich",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "dependencies": {
     "body-parser": "^1.15.2",
     "dotenv": "^2.0.0",
