@@ -1,0 +1,3 @@
+# Allow full indexing
+User-agent: *
+Disallow:
