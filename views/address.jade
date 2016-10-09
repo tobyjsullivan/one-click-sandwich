@@ -1,0 +1,32 @@
+doctype html
+html(lang="en")
+  head
+    title= "One-Click Sandwich - Delivery in Vancouver"
+  body
+    h2 Where should we deliver it?
+    p  It looks like this is your first order. Tell us your address
+       | and we'll remember it for next time.
+
+    form(method="POST", action="thank-you")
+        p Name 
+            input(type="text", name="name")
+        p Phone Number
+            input(type="text", name="phone")
+        p Street Address 
+            input(type="text", name="address")
+        p Apt/Unit # 
+            input(type="text", name="unit")
+        p Postal Code 
+            input(type="text", name="postal-code")
+        p City 
+            span Vancouver
+            input(type="hidden", name="city", value="Vancouver")
+        hr
+        h2 Payment
+        p Total
+            span $16.90
+        p
+            input(type="radio", checked="checked")
+            | Credit card at the door
+        input(type="submit", value="Order it!")
+
